@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Website</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="assets/logo.png">
+            <a href="https://youtube.com/@nirajtiwari242" target="_blank">Niraj Tiwari</a>
+        </div>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+        <button>Contact Me</button>
+        <button id="menuButton" onclick="openMenu()">
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+
+    <div class="main" id="main">
+        <div class="left">
+            <h5>Hey, I am Niraj Tiwari</h5>
+            <h3>I create <span>Fronted UI Developer</span> at Cognizant.</h3>
+            <p>
+                I am a Software Engineer (Frontend UI Developer) at Cognizant, Post Graduate from RGPV, Bhopal. 
+                This is Our Youtube channel where I make videos related to college life, Engineering College, It Coding 
+                Skills, carrer guidance & other programming stuff. You can subscribe to my channel to get quality content.
+                Thanks!
+            </p>
+            <button>Get In Touch</button>
+        </div>
+        <div class="right">
+            <img src="assets/header-img.JPG">
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <h5>My Skills</h5>
+        <h3>My Projects</h3>
+        <div class="skill-items">
+            <div class="item">
+                <div class="icon"><i class='bx bx-directions'></i></div>
+                <h4>Hospital Management System</h4>
+                <p>
+                    The Hospital Management System is a comprehensive software solution designed to enhance the efficiency
+                    and organization of Hospital administrative tasks. The system comprise two main compnents a secure 
+                    login page and a responsibilities website.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
+                <h4>Password-Generator-app</h4>
+                <p>
+                    Display the generated password in a clear, readable format.
+                    copy to clipboard button with a success message upon copying.
+                    Regenerate button to generate a new password without changing setting.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bxl-figma'></i></i></div>
+                <h4>URL-Shortener-link</h4>
+                <p>
+                    In this tutorial I am gonna showing to you how to code a url shortner with api in javascript!
+                     Also we have a great mesh gradient background and glassmorphism design for it and we used 
+                     tinyurl website api.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-code-alt'></i></i></div>
+                <h4>Internet Speed Test</h4>
+                <p>
+                    I am gonna showing to you how to code a Internet Speed Test using JavaScript. 
+                    in this video we Detect Internet Speed with downloading images from unsplash 
+                    api and calculating image download time depending on it's size❗️
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="left">
+            <img src="assets/about-img.jpg">
+        </div>
+        <div class="right">
+            <h5>About</h5>
+            <h3>About Me</h3>
+            <p>I am a Software Engineer (Frontend UI Developer) at Cognizant, Post Graduate from RGPV, Bhopal. 
+                This is Our Youtube channel where I make videos related to college life, Engineering College, It Coding 
+                Skills, carrer guidance & other programming stuff. You can subscribe to my channel to get quality content.
+                Thanks!
+            </p>
+            <p>
+                I am a Full Stack Web Developer I
+                have been working for last 1 Years and Currently I am working with a
+                Budding Startup in USA and a full Time Freelancer. Currently I am
+                working on React.js and Making Beautiful UI-UX are my fey features
+            </p>
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="header">
+            <div class="info">
+                <h5>Recent Projects</h5>
+                <h3>My Portfolio</h3>
+            </div>
+            <button><i class='bx bxl-youtube'></i> <a href="https://www.youtube.com/@nirajtiwari242"> Visit My Youtube</a> </button>
+        </div>
+
+        <div class="portfo-items">
+            <div class="item">
+                <img src="assets/sc-1.png">
+                <div class="info">
+                    <h4>Portfolio #3</h4>
+                    <p>
+                        I've now learned enough to be able to replicate the well-know password generator. !
+                    </p>
+                    <a href="https://www.github.com/nirajti">View in github <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/sc-2.jpg">
+                <div class="info">
+                    <h4>Simple Blog Page</h4>
+                    <p>
+                        i am going to show you how to use modern HTML and CSS to create a completely
+                        responsive Simple Blog Page.
+                    </p>
+                    <a href="https://www.youtube.com/@nirajtiwari242">View in Youtube <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/sc-3.png">
+                <div class="info">
+                    <h4>Razorpay clone</h4>
+                    <p>
+                     Creating a Razorpay clone Website.!
+                    </p>
+                    <a href="https://www.github.com/nirajti">View in github <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="feedback" id="feedback">
+        <h5>Clients Reviews</h5>
+        <h3>Customers Feedback</h3>
+        <div class="customers">
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                   Your dedication to meeting deadlines and delivering
+                   high-quality work is commenda Strong interpersonal 
+                  skiils are evident in your collaboration with team members.
+                   Your ability to adapt to new challenges and learn quickly
+                    is a valuable asset to the team.
+                </p>
+                <div class="user">
+                    <img src="assets/us-1.jpg">
+                    <div class="info">
+                        <h5>Dianne Russell</h5>
+                        <p>Starbucks</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    Your contributions are appreciated, and I encourage you to 
+                            build on your strengths while addresing the indentified
+                            area for improvement.Let's discuss these points futher during 
+                            next one-on-one meeting.
+                </p>
+                <div class="user">
+                    <img src="assets/us-2.jpg">
+                    <div class="info">
+                        <h5>Kristian Watson</h5>
+                        <p>Louis Vuitton</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    While your techanical skiils are silid. Continued professional
+                    development in programming skils could be beneficial.
+                </p>
+                <div class="user">
+                    <img src="assets/us-3.jpg">
+                    <div class="info">
+                        <h5>Kathryn Murphy</h5>
+                        <p>McDonald's</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="top">
+            <div class="logo">
+                <img src="assets/logo.png">
+                <a href="https://youtube.com/@nirajtiwari242">Niraj Tiwari</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="https://youtube.com/@nirajtiwari242">Contact</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+            <div class="social-links">
+                
+                <a href="https://www.github.com/nirajti"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.twiter.com/@Nirajtiwari329"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/niraj-kumar-tiwari-a966431b8/"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="bottom">
+            <p>
+                Made With ❤️ By  Niraj Tiwari
+            </p>
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies Setting</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
