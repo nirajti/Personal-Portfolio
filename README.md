@@ -5,7 +5,7 @@ This is my personal Portfolio Website : - https://nirajti.github.io/Personal-Por
 
 Here we have project screenshot :
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.png.png)
 
 
 
